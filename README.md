@@ -1,4 +1,6 @@
-sitemap preinstalled
+## Changes
+
+- Sitemap preinstalled
 	- updated to remove ‘Invisible’ pages from site map
 tags field preinstalled (panel & site plugin)
 humans.txt - be sure to update
@@ -22,9 +24,9 @@ added 'image/svg+xml' to panel config - TEST
 meta robots no follow for invisible pages - REVIEW (possibly break out into a snippet variable, so controlled per page through content?)
 
 
-TODO
+## To Do
 
-snippet for segment io event tracking
-review favicon and apple icons
-standard production htaccess
-per page meta descriptions
+- Snippet for segment io event tracking
+- review favicon and apple icons
+- standard production htaccess
+- per page meta descriptions
