@@ -18,6 +18,16 @@
 - Panel config
 	- Added 'image/svg+xml' MIME type
 
+- Sass
+- Scripts
+
+- [segment.io](https://segment.io) snippet for analytics
+	- Global $site variable for your unique key
+- [Typekit](https://typekit.com) snippet
+	- Global $site variable for your Kit ID
+
+meta robots no follow for invisible pages - REVIEW (possibly break out into a snippet variable, so controlled per page through content?)
+
 ## Installation
 
 ## To Do
