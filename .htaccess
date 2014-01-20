@@ -1,0 +1,33 @@
+php_flag short_open_tag on
+
+<IfModule mod_rewrite.c>
+
+  RewriteEngine on
+
+  RewriteBase /Work/Projects/kirby-starter
+
+  # filename-based cache busting
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteRule ^(.+)\.(\d+)\.(js|css|png|jpg|gif)$ $1.$3 [L]
+
+  # block text files in the content folder from being accessed directly
+  RewriteRule ^content/(.*)\.(txt|md|mdown)$ error [R=301,L]
+
+  # block all files in the site folder from being accessed directly
+  RewriteRule ^site/(.*) error [R=301,L]
+
+  # block all files in the kirby folder from being accessed directly
+  RewriteRule ^kirby/(.*) error [R=301,L]
+
+  # make panel links work
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteRule ^panel/(.*) panel/index.php [L]
+
+  # make site links work
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteRule ^(.*) index.php [L]
+
+</IfModule>
