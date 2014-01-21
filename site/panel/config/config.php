@@ -19,7 +19,7 @@ c::set('upload.allowed', array(
   'image/gif',
   'image/svg+xml',
   'application/pdf',
-  'application/postscript',  // eps
+  'application/postscript',
   'application/gzip',
   'application/zip',
 ));

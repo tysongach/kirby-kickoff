@@ -1,8 +1,10 @@
+Kirby Kickoff is my personal starting point for a new project using [Kirby CMS](). While I like that Kirby doesn’t assume much and comes fairly stripped down out-of-the-box, I always find myself adding, removing and changing the items below for each of my Kirby-driven sites.
+
 ## Changes
 
 - [Panel](https://github.com/bastianallgeier/kirbycms-panel) pre-installed
 - [XML Sitemap](http://getkirby.com/blog/xmlsitemap) pre-installed
-	- _Note: I’ve adjusted the default sitemap installation to better handle invisible/draft pages_
+	- _Note: I’ve adjusted the default sitemap installation to better handle invisible/draft pages per [this issue](http://getkirby.com/forum/issue-tracker/topic:229)_
 - [Tagcloud plugin](https://github.com/bastianallgeier/kirbycms-extensions/tree/master/plugins/tagcloud) pre-installed
 - [Panel Tags Field](http://getkirby.com/blog/panel-tags-field) pre-installed
 - [humans.txt](http://humanstxt.org)
@@ -36,5 +38,6 @@
 
 - Snippet for segment.io event tracking
 - Review favicon and Apple icons
+- Review Sitemap and deep invisible pages
 - Include a standard production-ready .htaccess file
 - Per-page meta descriptions (right now, a global `$site` variable sets this for every page resulting in duplicate and non-distinct page descriptions)

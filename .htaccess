@@ -4,7 +4,7 @@ php_flag short_open_tag on
 
   RewriteEngine on
 
-  RewriteBase /Work/Projects/kirby-starter
+  RewriteBase /Work/Projects/kirby-kickoff
 
   # filename-based cache busting
   RewriteCond %{REQUEST_FILENAME} !-f

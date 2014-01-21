@@ -1,18 +1,18 @@
 <?php
 
 l::set(array(
-  
-  // global 
+
+  // global
   'ok' => 'Ok',
   'cancel' => 'Cancel',
   'nochanges' => 'Nothing has changed',
 
   // header
   'header.title' => 'Kirby',
-  'header.logout' => 'Logout', 
-  
+  'header.logout' => 'Logout',
+
   // subheader
-  'subheader.home' => 'Home',  
+  'subheader.home' => 'Home',
   'subheader.site' => 'Your Site',
   'subheader.info' => 'Info',
 
@@ -23,18 +23,18 @@ l::set(array(
   'tabs.files' => 'Files',
   'tabs.options' => 'URL',
   'tabs.preview' => 'Preview',
-  
+
   // dashboard
   'dashboard.edit' => 'Edit',
   'dashboard.content' => 'Content',
   'dashboard.content.empty' => 'This page has no content',
   'dashboard.files' => 'Files',
   'dashboard.template' => 'Template',
-  'dashboard.stats.images' => 'Images', 
-  'dashboard.stats.videos' => 'Videos', 
-  'dashboard.stats.docs' => 'Docs', 
-  'dashboard.stats.sound' => 'Sound', 
-  'dashboard.stats.others' => 'Others', 
+  'dashboard.stats.images' => 'Images',
+  'dashboard.stats.videos' => 'Videos',
+  'dashboard.stats.docs' => 'Docs',
+  'dashboard.stats.sound' => 'Sound',
+  'dashboard.stats.others' => 'Others',
 
   // home
   'home.siteinfo' => 'Site info',
@@ -46,22 +46,22 @@ l::set(array(
   'home.warning.blueprints.text' => 'There are no blueprints available for the following templates<br /> Read more about <a href="http://getkirby.com/docs/panel/blueprints">how to install blueprints for your templates</a>',
   'home.warning.thumbs.title' => 'Thumbnails',
   'home.warning.thumbs.text' => 'Please add a <strong>thumbs</strong> directory to the main directory of your installation and change its permissions to <strong>0755</strong>',
-  
+
   // siteinfo
   'siteinfo.button' => 'Save',
   'siteinfo.errors.title' => 'Please add a title',
   'siteinfo.errors.permissions' => '<strong>content/site.txt</strong> is not writable. <br />Please change its permissions and try again.',
-  
-  // content form 
+
+  // content form
   'content.save' => 'Save',
   'content.previous' => 'Previous',
   'content.next' => 'Next',
   'content.invisible' => 'invisible',
-  
+
   // no content available
   'nocontent.title' => 'No Content',
   'nocontent.text' => 'There\'s no content for this page available.',
-    
+
   // pages
   'pages.title' => 'Visible subpages',
   'pages.title.home' => 'Visible pages',
@@ -84,8 +84,8 @@ l::set(array(
 
   // no subpages allowed
   'nopages.title' => 'Subpages',
-  'nopages.text' => 'This page is not supposed to have subpages',  
-  
+  'nopages.text' => 'This page is not supposed to have subpages',
+
   // add page
   'pages.add.title' => 'Add a new page',
   'pages.add.label.title' => 'Title',
@@ -101,8 +101,8 @@ l::set(array(
 
   // update page
   'pages.update.errors' => 'Please fill out all fields correctly',
-    
-  // delete page  
+
+  // delete page
   'pages.delete.title' => 'Delete this page',
   'pages.delete.button' => 'Delete',
   'pages.delete.errors.homepage' => 'You cannot delete the homepage',
@@ -134,7 +134,7 @@ l::set(array(
 
   'nofiles.title' => 'No Files',
   'nofiles.text' => 'This page is not supposed to have files',
-  
+
   // delete file
   'files.delete.title' => 'Delete this file',
   'files.delete.button' => 'Delete',
@@ -164,8 +164,8 @@ l::set(array(
   'files.upload.title' => 'Upload a new file',
   'files.upload.choose' => 'Please choose a file from your computer…',
   'files.upload.button' => 'Upload',
-      
-  // login  
+
+  // login
   'login.button' => 'Login',
   'login.username' => 'Username',
   'login.password' => 'Password',
@@ -173,7 +173,7 @@ l::set(array(
   'login.success' => 'You have been logged in',
   'login.error.browser.title' => 'You are using an old browser',
   'login.error.browser.text' => 'Please upgrade to the latest version of Google Chrome, Firefox, Safari or Internet Explorer.',
-  
+
   // upload
   'upload.errors.missing-file' => 'The file has not been found',
   'upload.errors.file-exists' => 'The file exists and cannot be overwritten',
@@ -187,7 +187,7 @@ l::set(array(
   'writer.errors.permissions' => 'The file is not writable',
   'writer.errors.write' => 'The data could not be added',
   'writer.success' => 'The file has been saved',
-  
+
   // form buttons
   'form.buttons.h1' => 'h1',
   'form.buttons.h2' => 'h2',
@@ -208,5 +208,5 @@ l::set(array(
   'form.overlay.email.link' => 'Email Address',
   'form.overlay.email.text' => 'Link Text (optional)',
   'form.overlay.email.button' => 'Insert Email',
-  
+
 ));
