@@ -1,5 +1,3 @@
-﻿Title: Page Title
-
+Title: Page Title
 ----
-
 Text: 

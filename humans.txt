@@ -1,44 +1,36 @@
-/* TEAM */
+Humans TXT
+humanstxt.org
 
-                            
-Your title: Your name.
 
-                            
-Site: email, link to a contact form, etc.
+/* People */
 
-                            
-Twitter: your Twitter username.
+Tyson Gach
+Design & Development
+Brooklyn, NY
+http://tysongach.com
+@tysongach
 
-                            
-Location: City, Country.
 
-                         
-                 
-                        [...]
-						
 
-							
-/* THANKS */
+/* Technology */
 
-							
-Name: name or url
+GitHub
+http://github.com
 
-						
-                 
-                        [...]
-                        
+Git
+http://git-scm.com
 
-                            
-/* SITE */
+Kirby CMS
+http://getkirby.com
 
-                            
-Last update: YYYY/MM/DD 
+Normalize.css
+http://necolas.github.com/normalize.css
 
-                            
-Standards: HTML5, CSS3,..
+Sass
+http://sass-lang.com
 
-                            
-Components: Modernizr, jQuery, etc.
+Sublime Text
+http://www.sublimetext.com
 
-                            
-Software: Software used for the development
+CodeKit
+http://incident57.com/codekit
