@@ -1,0 +1,5 @@
+.DS_Store
+*.codekit
+*imageoptim*
+*.sass-cache
+*.sublime*

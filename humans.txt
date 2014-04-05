@@ -14,11 +14,11 @@ http://tysongach.com
 
 /* Technology */
 
-GitHub
-http://github.com
-
 Git
 http://git-scm.com
+
+GitHub
+http://github.com
 
 Kirby CMS
 http://getkirby.com
@@ -34,3 +34,6 @@ http://www.sublimetext.com
 
 CodeKit
 http://incident57.com/codekit
+
+ImageOptim
+http://imageoptim.com

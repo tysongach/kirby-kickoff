@@ -60,7 +60,7 @@ class upload {
 
 		// try to change the permissions for the destination
 		@chmod(dirname($destination), 0777);
-
+		
 		if(!@copy($tmp_name, $destination)) return array(
 			'status' => 'error',
 			'msg'    => l::get('upload.errors.move-error', 'The file could not be moved to the server'),
@@ -94,10 +94,10 @@ class upload {
 		}
 		return $val;
 	}
-
+		
 	function mime_to_extension($mime, $default='') {
 		$types = array(
-			'image/jpeg' => 'jpg',
+			'image/jpeg' => 'jpg', 
 			'image/pjpeg' => 'jpg',
 			'image/png' => 'png',
 			'image/x-png' => 'png',

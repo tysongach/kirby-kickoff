@@ -1,5 +1,11 @@
 #Kirby Panel Changelog
 
+## 0.93
+
+- polish translation
+- fixes for the hungarian translation
+- new thai translation
+
 ## 0.92
 
 - fixed a bug in the changeNum method which broke sorting
